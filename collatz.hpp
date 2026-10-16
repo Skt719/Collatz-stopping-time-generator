@@ -4,13 +4,15 @@
 #include <iostream>
 #include <thread>
 
+using namespace std;
+
 class Collatz 
 {
     public:
         Collatz() = default;
         ~Collatz() = default;
 
-        void tFunction(int *N);
+        void tFunction(int N, mutex& mtx);
         //timer function
         //collatz math
 

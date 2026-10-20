@@ -1,5 +1,9 @@
 # Collatz-stopping-time-generator
 
+Project by: David Owen, Sienna Thomas
+
+Problems we experienced: None
+
 The goal of this assignment is to build a multi-threaded C++ program named mt-collatz. The program computes the Collatz stopping time for every integer from 1 to N using T concurrent threads. You will measure execution time to evaluate parallel performance and implement mutex synchronization to handle race conditions on shared data.
 
 Core Program Specifications
@@ -64,8 +68,6 @@ Submission Deliverables Checklist
 mt-collatz.cpp: Source code cleanly formatted with proper comments.
 
 Makefile: Must compile with flags -g -Wall with zero warnings/errors, and include a clean target.
-
-README: Notes any challenges encountered during development.
 
 Excel Spreadsheet (.xlsx): Contains data and charts for the histogram and timing experiment.
 

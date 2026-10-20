@@ -11,7 +11,7 @@ mt-collatz: mt-collatz.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $<
 
 clean:
-	rm -f $(TARGET) $(OBJS)
+	rm -f $(TARGET)
 
 .PHONY: clean
 
